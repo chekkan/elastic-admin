@@ -1,13 +1,22 @@
 {
   "name": "elastic-admin",
   "version": "0.1.0",
-  "main": "src/app.js",
+  "main": "dist/main.js",
   "scripts": {
+    "build": "babel src --out-dir dist --copy-files --source-maps inline",
+    "prestart": "npm run build",
     "start": "electron ."
   },
   "dependencies": {
+    "elasticsearch": "^13.3.1",
     "electron": "^1.7.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
