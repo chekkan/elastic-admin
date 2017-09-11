@@ -20,7 +20,7 @@ export default class Main extends React.Component {
     this.setState({
       [name]: value
     });
-    console.log(this.state);
+    // console.log(this.state);
   }
 
   handleSubmit(event) {
