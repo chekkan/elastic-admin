@@ -88,7 +88,7 @@ export default class Main extends React.Component {
                   <label htmlFor="ids-file">Identifiers (newline delimeted)</label>
                   <input name="idsFile" type="file" id="ids-file" className="form-control-file" />
                 </div>
-                <div className="form-group">
+                <div className="form-group d-none">
                     <label htmlFor="identifiers">Identifiers (newline delimeted)</label>
                     <textarea name="idsText" id="identifiers" className="form-control" rows="10"
                     value={this.state.idsText} onChange={this.handleInputChange}></textarea>
