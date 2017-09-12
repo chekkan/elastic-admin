@@ -1,5 +1,5 @@
 # elastic-admin
-[![devDependencies Status](https://david-dm.org/chekkan/elastic-admin/dev-status.svg)](https://david-dm.org/chekkan/elastic-admin?type=dev)
+[![dependencies Status](https://david-dm.org/chekkan/elastic-admin/status.svg)](https://david-dm.org/chekkan/elastic-admin) [![devDependencies Status](https://david-dm.org/chekkan/elastic-admin/dev-status.svg)](https://david-dm.org/chekkan/elastic-admin?type=dev)
 
 elasticsearch admin desktop app
 
